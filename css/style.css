@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: "Lato", sans-serif;
+	line-height: 160%;
+	color: #424551;
+}
+[class*="__container"] {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.page {
+	padding: 115px 0px 115px 0px;
+}
+.about{
+margin-bottom: 140px;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 30px;
+}
+
+.about__text p {
+	margin-bottom: 48px;
+}
+
+.about h3 {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+	margin-bottom: 24px;
+}
+
+.about li:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.about li::before {
+	background: url(../img/icon/check.svg);
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.teachers h4 {
+	font-weight: 700;
+	line-height: 150%;
+	text-transform: uppercase;
+	color: #1E212C;
+	margin-bottom: 8px;
+}
+
+.teachers h2 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1E212C;
+	margin-bottom: 16px;
+}
+
+.description {
+	font-size: 20px;
+	line-height: 150%;
+	color: #787A80;
+	margin-bottom: 32px;
+	display: inline-block;
+}
+
+.teachers li {
+	font-weight: 700;
+	color: #424551;
+}
+
+.teachers li:not(:last-child) {
+	margin-bottom: 4px;
+}
+
+.teachers li::before {
+	content: "";
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+.rate::before {
+	background: url(../img/icon/Star.svg);
+}
+.qty-courses::before {
+	background: url(../img/icon/play.svg);
+}
+.qty-students::before {
+	background: url(../img/icon/Person.svg);
+}
+
+.teachers ul {
+	margin-bottom: 32px;
+}
+
+.my-training {
+	padding: 45px 0px 25px 0px;
+}
+
+
+.link{
+	display: inline-block;
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+.link:hover{
+	color: rgb(218, 20, 30);
+	text-decoration: underline;
+}
+
+.block{
+	background: rgb(222, 19, 171) ;
+	padding: 20px;
+	margin-bottom: 25px;
+}
+
+.block:hover{
+	background: rgba(241, 216, 238, 0.368);
+}
+
+.block__text{
+	background: rgb(187, 13, 164);
+	padding: 25px;
+}
+
+.block:hover .block__text{
+	visibility: visible;
+	opacity: 1;
+}
+
+.block__text{
+	opacity: 0;
+	visibility: hidden;
+}
+
+.link__active{
+	font-size: 30px;
+}
+
+.link__active:active{
+	color: rgb(255, 2, 187);
+}
+
+div{
+	margin-bottom: 20px;
+}
+
+a:visited{
+	color: red;
+}
+
+ul{
+	margin-left: 20px;
+	line-height: 18px;
+}
+ul ul{
+	display: none;
+}
+
+ul li:hover ul{
+	display: block;
+}
+
+a:focus{
+	outline: 1px solid rgb(72, 26, 238);
+}
+.list li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.list li:first-child {
+	color: aqua;
+}
+
+.list li:nth-child(2) {
+	color: blue;
+}
